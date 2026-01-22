@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  "schedule": ["before 10am on monday"],
+  "schedule": ["every day"],
   "timezone": "America/New_York",
   "labels": ["dependencies"],
   "osvVulnerabilityAlerts": true,
