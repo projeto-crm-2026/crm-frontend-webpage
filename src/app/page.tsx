@@ -20,13 +20,6 @@ export default function Home() {
       <div className="max-w-3xl mx-auto m-12">
         <LoginForm />
       </div>
-      <Calendar
-        mode="single"
-        selected={date}
-        onSelect={setDate}
-        className="rounded-md border shadow-sm"
-        captionLayout="dropdown"
-      />
       <div className="p-4 max-w-2xl mx-auto border flex items-center justify-center border-neutral-200 bg-neutral-100 rounded-sm my-12">
         <TableDemo />
       </div>

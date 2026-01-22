@@ -52,7 +52,7 @@ export function LoginForm({
               </Field>
               <Field>
                 <Button type="submit">Login</Button>
-                <Button variant="outline" type="button">
+                <Button variant="secondary" type="button">
                   Login with Google
                 </Button>
                 <FieldDescription className="text-center">
