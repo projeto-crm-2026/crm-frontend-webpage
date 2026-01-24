@@ -6,6 +6,7 @@ import importHelpers from 'eslint-plugin-import-helpers'
 import unusedImports from 'eslint-plugin-unused-imports'
 import perfectionist from 'eslint-plugin-perfectionist'
 import svgJsx from 'eslint-plugin-svg-jsx'
+import prettierConfig from 'eslint-config-prettier'
 
 export default [
   {
@@ -87,5 +88,6 @@ export default [
         }
       ]
     }
-  }
+  },
+  prettierConfig
 ]

@@ -10,15 +10,15 @@ import {
   FieldGroup,
   FieldLabel,
   Input,
-  cn,
-} from "crm-project-ui";
+  cn
+} from 'crm-project-ui'
 
 export function LoginForm({
   className,
   ...props
-}: React.ComponentProps<"div">) {
+}: React.ComponentProps<'div'>) {
   return (
-    <div className={cn("flex flex-col gap-6", className)} {...props}>
+    <div className={cn('flex flex-col gap-6', className)} {...props}>
       <Card>
         <CardHeader>
           <CardTitle>Login to your account</CardTitle>
@@ -33,8 +33,8 @@ export function LoginForm({
                 <FieldLabel htmlFor="email">Email</FieldLabel>
                 <Input
                   id="email"
-                  type="email"
                   placeholder="m@example.com"
+                  type="email"
                   required
                 />
               </Field>
@@ -42,8 +42,8 @@ export function LoginForm({
                 <div className="flex items-center">
                   <FieldLabel htmlFor="password">Password</FieldLabel>
                   <a
-                    href="#"
                     className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
+                    href="#"
                   >
                     Forgot your password?
                   </a>
@@ -52,7 +52,7 @@ export function LoginForm({
               </Field>
               <Field>
                 <Button type="submit">Login</Button>
-                <Button variant="secondary" type="button">
+                <Button type="button" variant="secondary">
                   Login with Google
                 </Button>
                 <FieldDescription className="text-center">
@@ -64,5 +64,5 @@ export function LoginForm({
         </CardContent>
       </Card>
     </div>
-  );
+  )
 }
