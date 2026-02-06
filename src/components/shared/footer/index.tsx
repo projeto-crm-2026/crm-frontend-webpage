@@ -22,7 +22,7 @@ export const Footer: FC = () => {
                 {footerSection.links.map(
                   (footerLink: FooterLink, index: number) => (
                     <Link
-                      className="w-fit border-b border-transparent text-xs text-neutral-500 transition-all duration-150 hover:border-neutral-500 hover:text-neutral-700 sm:text-xs lg:text-sm"
+                      className="w-fit border-b border-transparent text-[13px] text-neutral-500 transition-all duration-150 hover:border-neutral-500 hover:text-neutral-700 sm:text-xs lg:text-sm"
                       href={footerLink.href}
                       key={`${footerLink.label}-${index}`}
                       target={sectionIndex === 2 ? '_blank' : '_self'}

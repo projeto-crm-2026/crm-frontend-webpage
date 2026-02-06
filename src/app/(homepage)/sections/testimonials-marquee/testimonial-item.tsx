@@ -6,21 +6,19 @@ import {
   TestimonialAvatar,
   TestimonialAvatarImg,
   TestimonialAvatarRing,
-  TestimonialQuote,
-} from "./testimonial";
+  TestimonialQuote
+} from './testimonial'
 
-import type { Testimonial as TestimonialType } from "./types";
+import type { Testimonial as TestimonialType } from './types'
 
 export function TestimonialItem({
   authorAvatar,
   authorName,
   authorTagline,
-  quote,
+  quote
 }: TestimonialType) {
   return (
-    <div
-      className="block bg-white h-full transition-[background-color] ease-out hover:bg-accent2"
-    >
+    <div className="hover:bg-accent2 block h-full bg-white transition-[background-color] ease-out">
       <Testimonial>
         <TestimonialQuote className="not-italic">
           <p className="line-clamp-3">{quote}</p>
@@ -38,5 +36,5 @@ export function TestimonialItem({
         </TestimonialAuthor>
       </Testimonial>
     </div>
-  );
+  )
 }

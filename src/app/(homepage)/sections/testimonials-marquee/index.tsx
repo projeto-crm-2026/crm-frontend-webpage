@@ -33,9 +33,9 @@ export const TestimonialsMarquee = () => {
   return (
     <section className="flex w-full justify-between">
       <div className="bg-stripes relative hidden w-full flex-1 border-r border-[#d4d2c7] lg:flex" />
-      <div className="relative mx-auto flex w-full max-w-2xl flex-col gap-12 overflow-hidden py-12 lg:max-w-7xl lg:justify-between">
+      <div className="relative mx-auto flex w-full max-w-2xl flex-col gap-8 overflow-hidden py-12 lg:max-w-7xl lg:justify-between lg:gap-12">
         <article className="flex w-full flex-col items-center justify-center gap-2 px-8">
-          <h2 className="text-center text-2xl font-bold lg:text-4xl">
+          <h2 className="text-center text-xl font-bold md:text-2xl lg:text-4xl">
             Veja o que nossos clientes falam da gente
           </h2>
         </article>

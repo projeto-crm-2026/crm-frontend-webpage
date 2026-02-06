@@ -15,7 +15,7 @@ export const QuestionItem: React.FC<QuestionItemProps> = ({ copy, index }) => {
 
   return (
     <button
-      className={`group w-full bg-white cursor-pointer border-b p-4 transition ${index === 4 ? 'border-transparent' : 'border-[#d4d2c7]'}`}
+      className={`group w-full cursor-pointer border-b bg-white p-4 transition ${index === 4 ? 'border-transparent' : 'border-[#d4d2c7]'}`}
       onClick={() => setIsQuestionOpen(!isQuestionOpen)}
     >
       <div

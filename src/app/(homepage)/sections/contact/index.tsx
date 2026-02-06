@@ -19,25 +19,25 @@ export const Contact = async () => {
           />
         </figure>
         <div className="flex h-full w-full flex-col items-start justify-center gap-8 px-4 py-12 lg:gap-12 lg:px-8 lg:py-16">
-          <article className="flex flex-col gap-4">
+          <article className="flex flex-col items-center gap-2 lg:items-start lg:gap-4">
             <span className="w-fit rounded-4xl border border-[#d4d2c7] px-2 py-1 text-xs font-medium text-neutral-700 md:text-[12px] lg:px-2.5">
               Suporte
             </span>
 
-            <h2 className="text-4xl font-bold lg:text-5xl">
+            <h2 className="mt-3 text-center text-2xl font-bold md:text-3xl lg:mt-0 lg:text-left lg:text-5xl">
               Um CRM poderoso <br className="hidden lg:block" />
               com suporte que <br className="hidden lg:block" />
               realmente acompanha você.
             </h2>
 
-            <p className="text-base font-medium text-neutral-500">
+            <p className="text-center text-sm font-medium text-neutral-500 lg:text-left lg:text-base">
               Atendimento humano, rápido e focado no seu negócio.
               <br className="block lg:hidden xl:block" />
               Do onboarding à escala do seu time.
             </p>
           </article>
           <Link
-            className="group flex cursor-pointer items-center gap-3 text-base font-semibold text-blue-500 transition-all duration-150 hover:text-blue-600"
+            className="group mx-auto flex cursor-pointer items-center gap-3 text-base font-semibold text-blue-500 transition-all duration-150 hover:text-blue-600 lg:mx-0"
             href="#"
           >
             Entrar em contato

@@ -3,7 +3,7 @@ import { IconProps } from 'crm-project-ui'
 export const WriteEffect: React.FC<IconProps> = async props => {
   return (
     <svg
-      className="tablet:block absolute -bottom-[32px] -left-[12px]"
+      className="block -bottom-[32px] -left-[12px]"
       xmlns="http://www.w3.org/2000/svg"
       width="207"
       height="32"
