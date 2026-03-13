@@ -1,0 +1,1 @@
+export const CRM_PUB_KEY = process.env.NEXT_PUBLIC_CRM_PUB_KEY
